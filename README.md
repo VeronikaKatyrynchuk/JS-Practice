@@ -1,5 +1,5 @@
 # JS-Practice
-Practical and useful apps using JavaScript(10 projects, to boost my coding skills)
+Practical and useful apps using JavaScript(to boost my coding skills)
 
 Interactive Quiz App
 
