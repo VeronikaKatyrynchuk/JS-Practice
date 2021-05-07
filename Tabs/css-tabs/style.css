@@ -1,0 +1,49 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto 0;
+}
+
+.input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tabs-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    display: none;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.tab {
+    text-align: center;
+    padding: 20px;
+    flex-basis: 50%;
+}
+
+#tab-1:checked ~ .tab-1,
+#tab-2:checked ~ .tab-2 {
+    background-color: #eee;
+}
+
+#tab-1:checked ~ .content-1,
+#tab-2:checked ~ .content-2 {
+    display: block;
+}
+
